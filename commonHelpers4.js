@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */const t=document.querySelector("#task-3-key"),e=document.querySelector("#task-3-value"),u=document.querySelector("#task-3-update-button"),o=document.querySelector("#task-3-output");u.addEventListener("click",n);function n(){localStorage.setItem(t.value,e.value),o.textContent=`Update value for key "${t.value}" to chenge "${e.value}"`}
+//# sourceMappingURL=commonHelpers4.js.map

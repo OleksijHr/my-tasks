@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */const o=document.querySelector("#task-1-form"),e=document.querySelector("#task-1-key"),t=document.querySelector("#task-1-value"),n=document.querySelector("#task-1-output");o.addEventListener("submit",a);function a(u){u.preventDefault(),localStorage.setItem(e.value,t.value),n.textContent=`Saved key-value: ${e.value} --- ${t.value}`}
+//# sourceMappingURL=commonHelpers2.js.map
