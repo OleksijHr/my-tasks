@@ -5,7 +5,6 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
 
 :root {
@@ -22,4 +21,39 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+#task-1-form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#task-1-key,
+#task-1-value {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#task-1-output {
+  margin-top: 10px;
+}
+
+#task-2-output {
+  margin-top: 10px;
+}
+
+#task-3-update-button {
+  margin-right: 10px;
+}
+
+#task-3-output {
+  margin-top: 10px;
+}
+
+#task-4-delete-button {
+  margin-right: 10px;
+}
+
+#task-4-output {
+  margin-top: 10px;
 }
